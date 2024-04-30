@@ -1,0 +1,26 @@
+{
+  "compliance_policy": {
+    "policy_title": "Social Media Usage Policy",
+    "policy_description": "This policy outlines the guidelines and best practices for the use of social media by employees of our Asset Manager company.",
+    "policy_statement": "Employees must adhere to the following rules and regulations when using social media platforms in connection with their work at our company.",
+    "policy_details": {
+      "1": "Employees should be mindful of the fact that when they are using social media, they are representing our company. Therefore, they should always maintain a professional and respectful tone in all their communications.",
+      
+      "2": "Employees should never disclose any confidential or proprietary information about our company, our clients, or our business partners on social media platforms. This includes but is not limited to information about our investment strategies, financial performance, business plans, or client relationships.",
+      
+      "3": "Employees should not engage in any discussions or activities that could be perceived as a conflict of interest or could damage the reputation of our company. This includes avoiding discussions about specific investments, market rumors, or any other sensitive topics that could impact our business.",
+      
+      "4": "Employees should not use social media platforms to endorse or promote products, services, or events without prior approval from the compliance department. This includes liking, sharing, or commenting on posts that could be construed as promotional in nature.",
+      
+      "5": "Employees are encouraged to use social media platforms to promote the positive aspects of our company, such as thought leadership, industry insights, and corporate social responsibility initiatives. However, they should always ensure that their posts are accurate, transparent, and compliant with relevant regulations.",
+      
+      "6": "Employees should be aware of the risks associated with social media, such as cyber attacks, phishing scams, or reputational damage. They should therefore be cautious about the information they share online, take necessary precautions to protect their personal data, and report any suspicious activity to the IT department.",
+      
+      "7": "Employees should disclose their affiliation with our company in their social media profiles if they are sharing content related to our business. This includes using disclaimers such as 'views are my own' or 'not official company communication' to avoid any confusion about their relationship with our company.",
+      
+      "8": "Employees should consult the compliance department if they have any questions or concerns about using social media in compliance with company policies and regulatory requirements. They should seek guidance on specific situations that may arise and ensure that they are following all relevant guidelines.",
+      
+      "9": "Employees who violate this social media policy may be subject to disciplinary action, up to and including termination of employment. It is important for all employees to take their responsibilities seriously and act in the best interests of our company at all times."
+    }
+  }
+}
