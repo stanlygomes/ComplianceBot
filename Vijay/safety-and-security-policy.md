@@ -2,11 +2,11 @@
 
 ## Policy Coverage
 
-This Safety and Security Policy applies to all employees of our asset management company, regardless of their geographic location. Employees are expected to adhere to the guidelines outlined in this policy to ensure a safe and secure working environment. 
+This Safety and Security Policy applies to all employees of  Wolfgang, regardless of their geographic location. Employees are expected to adhere to the guidelines outlined in this policy to ensure a safe and secure working environment. 
 
 ## Policy Overview
 
-At our asset management company, the safety and security of our employees is of paramount importance. We are committed to providing a work environment that is free from hazards and threats to personal safety. This policy has been established to outline the procedures and guidelines that employees must follow to maintain a safe and secure workplace.
+At Wolfgang, the safety and security of our employees is of paramount importance. We are committed to providing a work environment that is free from hazards and threats to personal safety. This policy has been established to outline the procedures and guidelines that employees must follow to maintain a safe and secure workplace.
 
 ## Policy Statement
 
@@ -51,4 +51,4 @@ At our asset management company, the safety and security of our employees is of 
 
 ## Conclusion
 
-By adhering to the guidelines outlined in this Safety and Security Policy, employees play a crucial role in maintaining a safe and secure work environment for themselves and their colleagues. Our asset management company is committed to upholding the highest standards of safety and security, and we rely on the cooperation and vigilance of all employees to achieve this goal.
+By adhering to the guidelines outlined in this Safety and Security Policy, employees play a crucial role in maintaining a safe and secure work environment for themselves and their colleagues. Wolfgang is committed to upholding the highest standards of safety and security, and we rely on the cooperation and vigilance of all employees to achieve this goal.

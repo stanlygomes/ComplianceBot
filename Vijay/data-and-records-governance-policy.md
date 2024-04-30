@@ -1,10 +1,10 @@
 # Data and Records Governance Policy
 
 ## Policy Coverage
-This Data and Records Governance Policy applies to all employees of [Company Name] globally, regardless of their geographical location. It governs the management, security, and retention of data and records to ensure compliance with regulatory requirements, safeguard sensitive information, and maintain the company's reputation.
+This Data and Records Governance Policy applies to all employees of Wolfgang globally, regardless of their geographical location. It governs the management, security, and retention of data and records to ensure compliance with regulatory requirements, safeguard sensitive information, and maintain the company's reputation.
 
 ## Policy Overview
-At [Company Name], we recognize the critical importance of robust data and records governance practices to protect our business interests, mitigate risks, and uphold our commitment to data privacy and security. This policy establishes guidelines and procedures for the proper handling of data and records throughout their lifecycle, from creation to disposal.
+At Wolfgang, we recognize the critical importance of robust data and records governance practices to protect our business interests, mitigate risks, and uphold our commitment to data privacy and security. This policy establishes guidelines and procedures for the proper handling of data and records throughout their lifecycle, from creation to disposal.
 
 ## Policy Statement
 
@@ -45,4 +45,4 @@ At [Company Name], we recognize the critical importance of robust data and recor
 1. This Data and Records Governance Policy will be reviewed and updated periodically to reflect changes in regulatory requirements, technology advancements, and business needs.
 2. Employees are responsible for staying informed of policy revisions and complying with the most current version available.
 
-Adherence to this Data and Records Governance Policy is mandatory for all employees of [Company Name]. Failure to comply may result in disciplinary action up to and including termination. If employees have any questions or concerns regarding this policy, they should contact the Compliance Department for guidance and clarification.
+Adherence to this Data and Records Governance Policy is mandatory for all employees of Wolfgang. Failure to comply may result in disciplinary action up to and including termination. If employees have any questions or concerns regarding this policy, they should contact the Compliance Department for guidance and clarification.
