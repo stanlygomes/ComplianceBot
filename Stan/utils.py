@@ -69,12 +69,20 @@ Answer the question based only on the following context:
 Answer the question based on the above context: {question}
 """
 
-def query_data():
+def query_data(**kwargs):
     # Create CLI.
-    parser = argparse.ArgumentParser()
-    parser.add_argument("query_text", type=str, help="The query text.")
-    args = parser.parse_args()
-    query_text = args.query_text
+    if (len(kwargs) == 0):
+        parser = argparse.ArgumentParser()
+        parser.add_argument("query_text", type=str, help="The query text.")
+        args = parser.parse_args()
+        query_text = args.query_text
+    else:
+        for key, value in kwargs.items():
+            if key == "query_text":
+                query_text = value
+            else:
+                print("WARNING! No args supplied. Selecting default.")
+                query_text = "How many vacation days do I get?"
 
     # Prepare the DB.
     embedding_function = OpenAIEmbeddings()
@@ -83,8 +91,9 @@ def query_data():
     # Search the DB.
     results = db.similarity_search_with_relevance_scores(query_text, k=3)
     if len(results) == 0 or results[0][1] < 0.7:
-        print(f"Unable to find matching results.")
-        return
+        rag_result = f"Unable to find matching results."
+        print(rag_result)
+        return rag_result
 
     context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
@@ -97,3 +106,5 @@ def query_data():
     sources = [doc.metadata.get("source", None) for doc, _score in results]
     formatted_response = f"Response: {response_text}\nSources: {sources}"
     print(formatted_response)
+
+    return response_text

@@ -9,5 +9,6 @@ ui.input_text("message", "Ask Compliance Bot a question",
 @render.ui
 def result():
     x=input.message()
+    the_answer = utils.query_data(query_text=x)
 
-    return "Here's your answer"
+    return the_answer
