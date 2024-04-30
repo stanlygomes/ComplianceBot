@@ -1,15 +1,13 @@
 from shiny.express import input, render, ui
+import utils
 
 ui.panel_title("Compliance Bot!")
-ui.input_text("message", "Message", value="Hello World")
+ui.input_text("message", "Ask Compliance Bot a question", 
+              value="How many vacation days do I get?")
 
 
 @render.ui
 def result():
     x=input.message()
 
-    return x
-
-@render.text
-def txt():
-    return f"n*2 is {10 * 2}"
+    return "Here's your answer"
