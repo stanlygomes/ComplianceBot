@@ -1,0 +1,3 @@
+| 0                                                                                                                                                                                                             |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The following document outlines the company's vendor management compliance policy. It covers the procedures for evaluating and monitoring vendors for compliance with the company's policies and regulations. |

@@ -1,0 +1,3 @@
+| 0                                                                                                                                                                                                                                |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The company's harassment and discrimination policy is outlined in this document. It specifies the types of behavior that are prohibited, the process for reporting incidents, and the consequences for violations of the policy. |

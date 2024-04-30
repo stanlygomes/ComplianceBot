@@ -1,0 +1,3 @@
+| 0                                                                                                                                                                                                                           |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This compliance policy document addresses the company's social media usage policies. It outlines the guidelines for appropriate use of social media by employees, as well as the consequences for violations of the policy. |

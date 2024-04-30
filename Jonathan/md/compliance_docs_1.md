@@ -1,0 +1,3 @@
+| 0                                                                                                                                                                                                                                                        |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This document outlines the company's compliance policy with regard to data protection regulations. It covers the collection, storage, and sharing of personal information, as well as the measures in place to ensure compliance with laws such as GDPR. |

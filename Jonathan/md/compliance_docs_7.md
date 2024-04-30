@@ -1,0 +1,3 @@
+| 0                                                                                                                                                                                                                                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This document outlines the company's environmental compliance policy. It specifies the company's commitment to environmental sustainability, as well as the measures in place to ensure compliance with environmental regulations. |
