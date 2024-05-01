@@ -1,0 +1,90 @@
+<!-- chatbot.html -->
+<style>
+    /* Add this CSS to your main CSS file or within <style> tags in your HTML file */
+/* Add this CSS to your main CSS file or within <style> tags in your HTML file */
+
+    .chatbot-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-conversation {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    /* Limit conversation height */
+    overflow-y: auto;
+    /* Enable vertical scroll for long conversations */
+}
+
+.chatbot-message {
+    max-width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chatbot-response {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+}
+
+.chatbot-user {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+}
+
+.chatbot-message p {
+    margin: 0;
+}
+
+.chatbot-input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.chatbot-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+</style>
+<div class="chatbot-container">
+    <div class="chatbot-conversation" id="conversation">
+        <!-- Initial content will be added dynamically here -->
+    </div>
+    <form action="/chat" method="post" class="chatbot-form">
+        <input type="text" id="message" name="message" class="chatbot-input" required placeholder="Type your message...">
+        <input type="submit" value="Send" class="chatbot-submit">
+    </form>
+</div>
+<script>
+    // Fetch initial chatbot content from the Flask endpoint
+    fetch('/initial_content')
+        .then(response => response.json())
+        .then(data => {
+            const conversation = document.getElementById('conversation');
+            data.forEach(item => {
+                const message = document.createElement('div');
+                message.className = `chatbot-message ${item.widget}`;
+                message.innerHTML = `
+                    <p>${item.content}</p>
+                `;
+                conversation.appendChild(message);
+            });
+        })
+        .catch(error => console.error('Error fetching initial content:', error));
+</script>
