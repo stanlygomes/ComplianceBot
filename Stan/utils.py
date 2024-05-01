@@ -6,6 +6,7 @@ from langchain.vectorstores.chroma import Chroma
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_anthropic import ChatAnthropic
+from langchain_core.output_parsers import StrOutputParser
 import argparse
 from dataclasses import dataclass
 import os
@@ -35,7 +36,7 @@ def load_documents():
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=600,
+        chunk_size=400,
         chunk_overlap=200,
         length_function=len,
         add_start_index=True,
@@ -110,7 +111,7 @@ def query_data(question, model_type):
     print(formatted_response)
     return response_text
 
-def llm_rag_predict(question, model_type):
+def llm_rag_predict(question, chat_history, model_type):
     # # Create CLI.
     # parser = argparse.ArgumentParser()
     # parser.add_argument("query_text", type=str, help="The query text.")
@@ -140,10 +141,18 @@ def llm_rag_predict(question, model_type):
         model = ChatAnthropic(model=model_type)
     else:
         print("Not a valid model or logic hasn't been implemented yet")
-    response_text = model.invoke(prompt)
 
-    sources = [doc.metadata.get("source", None) for doc, _score in results]
-    # formatted_response = f"{response_text.content}\nGenerated using: {response_text.response_metadata['model_name']}\nSources: {sources}"
-    formatted_response = f"{response_text.content}\nSources: {sources}"
-    print(formatted_response)
-    return formatted_response
+    chain = prompt | model | StrOutputParser()
+
+    return chain.stream({
+        "chat_history": chat_history,
+        "user_question": query_text
+    })
+
+    # response_text = model.invoke(prompt)
+
+    # sources = [doc.metadata.get("source", None) for doc, _score in results]
+    # # formatted_response = f"{response_text.content}\nGenerated using: {response_text.response_metadata['model_name']}\nSources: {sources}"
+    # formatted_response = f"{response_text.content}\nSources: {sources}"
+    # print(formatted_response)
+    # return formatted_response
