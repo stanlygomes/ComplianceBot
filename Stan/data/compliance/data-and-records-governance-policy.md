@@ -1,48 +1,57 @@
 # Data and Records Governance Policy
 
 ## Policy Coverage
-This Data and Records Governance Policy applies to all employees of [Company Name] globally, regardless of their geographical location. It governs the management, security, and retention of data and records to ensure compliance with regulatory requirements, safeguard sensitive information, and maintain the company's reputation.
+
+This Data and Records Governance Policy applies to all employees, contractors, and third-party service providers of Wolfgang, regardless of geographical location. This policy is designed to ensure that all individuals handling data and records in the course of their duties adhere to the highest standards of confidentiality, integrity, and security.
 
 ## Policy Overview
-At [Company Name], we recognize the critical importance of robust data and records governance practices to protect our business interests, mitigate risks, and uphold our commitment to data privacy and security. This policy establishes guidelines and procedures for the proper handling of data and records throughout their lifecycle, from creation to disposal.
+
+Data and records are valuable assets of Wolfgang, and their proper management is critical to our operations, client service, and regulatory compliance. This policy establishes guidelines and procedures for the governance of data and records to safeguard information, maintain accuracy, and uphold privacy standards.
+
+Effective data governance involves the strategic management of data to ensure its usability, integrity, and security. Records governance focuses on the systematic control of records throughout their lifecycle, from creation to disposition. This policy outlines the responsibilities of employees in managing data and records, as well as the procedures to be followed to ensure compliance with regulatory requirements and industry best practices.
 
 ## Policy Statement
 
-### Data Classification
-1. All data generated, processed, or stored by employees must be classified based on its sensitivity and confidentiality level.
-2. Data should be classified as public, internal, confidential, or restricted, with corresponding access controls and handling procedures in place.
-   
-### Data Collection and Usage
-1. Employees must only collect and use data necessary for legitimate business purposes and in compliance with applicable laws and regulations.
-2. Data collected must be accurate, up-to-date, and relevant, and obtained with consent where required.
+### 1. Data Classification
 
-### Data Security
-1. Access to confidential and restricted data must be restricted to authorized personnel on a need-to-know basis.
-2. Data must be encrypted when transmitted over public networks and stored on secure servers with access controls.
-3. Employees are responsible for safeguarding data from unauthorized access, disclosure, alteration, or destruction.
+#### 1.1. Classification Criteria
+Data must be classified based on sensitivity, criticality, and regulatory requirements. Data should be categorized as public, internal, confidential, or restricted, and appropriate security measures should be applied based on the classification level.
 
-### Records Management
-1. Records must be retained in accordance with legal, regulatory, and business requirements, and disposed of securely when no longer needed.
-2. Records must be stored in designated systems or repositories with version control and audit trails to ensure integrity and traceability.
+#### 1.2. Data Handling
+Employees are responsible for handling data in accordance with its classification. Confidential and restricted data must be encrypted when transmitted or stored, and access should be restricted to authorized personnel.
 
-### Data Privacy
-1. Employees must respect individuals' rights to privacy and comply with data protection laws when processing personal information.
-2. Data subjects must be informed of the purpose and legal basis for data processing, and their consent obtained where necessary.
+### 2. Data Protection
 
-### Data Sharing
-1. Data sharing with external parties must be done in a secure and compliant manner, with appropriate contracts and safeguards in place.
-2. Employees must ensure that shared data is protected from unauthorized disclosure or misuse and adhere to data transfer restrictions.
+#### 2.1. Access Control
+Access to data should be granted on a need-to-know basis. User access rights should be regularly reviewed and revoked promptly upon termination of employment or contract.
 
-### Monitoring and Compliance
-1. Compliance with this policy will be periodically monitored through audits, assessments, and reviews to ensure adherence to data governance standards.
-2. Non-compliance with this policy may result in disciplinary action, including termination of employment, and legal consequences for serious violations.
+#### 2.2. Data Security
+Employees must adhere to security protocols to protect data from unauthorized access, disclosure, or modification. Data should be stored in secure locations and transmitted over encrypted channels.
 
-### Training and Awareness
-1. Employees will receive training on data and records governance best practices, policies, and procedures to enhance their understanding and compliance.
-2. Regular awareness campaigns and communication will be conducted to reinforce the importance of data protection and privacy principles.
+### 3. Records Management
 
-### Policy Review and Updates
-1. This Data and Records Governance Policy will be reviewed and updated periodically to reflect changes in regulatory requirements, technology advancements, and business needs.
-2. Employees are responsible for staying informed of policy revisions and complying with the most current version available.
+#### 3.1. Record Retention
+Records should be retained for the periods specified in the records retention schedule. Employees must follow the established procedures for record disposal, preservation, and archival.
 
-Adherence to this Data and Records Governance Policy is mandatory for all employees of [Company Name]. Failure to comply may result in disciplinary action up to and including termination. If employees have any questions or concerns regarding this policy, they should contact the Compliance Department for guidance and clarification.
+#### 3.2. Record Integrity
+Employees are responsible for maintaining the accuracy and completeness of records. Any unauthorized alteration or deletion of records is strictly prohibited.
+
+### 4. Data Privacy
+
+#### 4.1. Privacy Compliance
+Employees must comply with data privacy laws and regulations applicable to their geographical location. Personal data should be processed lawfully and transparently, with appropriate consent obtained from data subjects.
+
+#### 4.2. Data Subject Rights
+Employees must respect the rights of data subjects, including the right to access, rectification, erasure, and portability of their personal data. Requests from data subjects should be promptly addressed in accordance with data protection regulations.
+
+### 5. Monitoring and Compliance
+
+#### 5.1. Compliance Oversight
+The Compliance team will monitor and assess compliance with this policy through regular audits, reviews, and assessments. Non-compliance may result in disciplinary action, including termination of employment.
+
+#### 5.2. Reporting Violations
+Employees are encouraged to report any suspected violations of this policy to the Compliance team or the designated authority. Reports will be investigated promptly, and appropriate remedial action will be taken.
+
+Adherence to this Data and Records Governance Policy is mandatory for all employees and individuals handling data on behalf of Wolfgang. By following these guidelines, we demonstrate our commitment to maintaining the confidentiality, integrity, and security of data and records, thereby safeguarding the interests of the company and its stakeholders.
+
+This policy is effective immediately upon publication and will be reviewed periodically to ensure its continued relevance and effectiveness.
