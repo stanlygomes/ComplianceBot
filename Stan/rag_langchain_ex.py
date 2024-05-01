@@ -21,8 +21,10 @@ if prompt:
     # Store provided prompt to message history variable
     st.session_state.messages.append({'role':'user', 'content':prompt})
     # Send prompt to LLM
-    response = utils.llm_rag_predict(prompt, model_types['claude-opus'])
-    st.chat_message('assistant').markdown(response)
+    response = st.chat_message('assistant').write_stream(utils.llm_rag_predict(prompt, st.session_state.messages, model_types['gpt3.5']))
+    # st.chat_message('assistant').write_stream(response)
+    # response = utils.llm_rag_predict(prompt, st.session_state.chat_history, model_types['claude-sonnet'])
+    # st.chat_message('assistant').markdown(response)
     st.session_state.messages.append(
         {'role':'assistant', 'content':response}
     )
