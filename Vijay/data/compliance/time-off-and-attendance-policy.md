@@ -2,11 +2,11 @@
 
 ## Policy Coverage
 
-This Time Off and Attendance Policy applies to all employees of [Company Name], regardless of their geographical location. All employees are expected to adhere to the guidelines outlined in this policy.
+This Time Off and Attendance Policy applies to all employees of Wolfgang, regardless of their geographical location. All employees are expected to adhere to the guidelines outlined in this policy.
 
 ## Policy Overview
 
-[Company Name] recognizes the importance of maintaining a healthy work-life balance for its employees. To support this, the company has established this Time Off and Attendance Policy to provide clear guidelines on leave entitlements, attendance expectations, and procedures for requesting time off. This policy aims to ensure a fair and consistent approach to managing time off and attendance across the organization.
+Wolfgang recognizes the importance of maintaining a healthy work-life balance for its employees. To support this, the company has established this Time Off and Attendance Policy to provide clear guidelines on leave entitlements, attendance expectations, and procedures for requesting time off. This policy aims to ensure a fair and consistent approach to managing time off and attendance across the organization.
 
 ## Policy Statement
 
@@ -18,7 +18,7 @@ Employees are expected to arrive at work on time and adhere to their regular wor
 
 #### Flexibility
 
-[Company Name] recognizes that employees may occasionally need to adjust their working hours due to personal commitments or unforeseen circumstances. Employees are encouraged to communicate any anticipated changes in their schedule to their manager in advance. Where possible, the company will accommodate reasonable requests for flexibility in working hours.
+Wolfgang recognizes that employees may occasionally need to adjust their working hours due to personal commitments or unforeseen circumstances. Employees are encouraged to communicate any anticipated changes in their schedule to their manager in advance. Where possible, the company will accommodate reasonable requests for flexibility in working hours.
 
 ### Leave Entitlements
 
@@ -66,9 +66,9 @@ Failure to comply with this Time Off and Attendance Policy may result in discipl
 
 This Time Off and Attendance Policy is subject to periodic review and updates as needed to ensure its effectiveness and compliance with current regulations. Employees will be notified of any changes to the policy and are expected to adhere to the updated guidelines.
 
-This Time Off and Attendance Policy serves as a guideline for employees of [Company Name] and outlines the company's expectations regarding punctuality, leave entitlements, and time-off procedures. By adhering to this policy, employees contribute to a positive work environment and demonstrate their commitment to professional excellence.
+This Time Off and Attendance Policy serves as a guideline for employees of Wolfgang and outlines the company's expectations regarding punctuality, leave entitlements, and time-off procedures. By adhering to this policy, employees contribute to a positive work environment and demonstrate their commitment to professional excellence.
 
-[Company Name] is committed to supporting its employees in achieving a healthy work-life balance and encourages open communication between employees and management to address any concerns or issues related to time off and attendance.
+Wolfgang is committed to supporting its employees in achieving a healthy work-life balance and encourages open communication between employees and management to address any concerns or issues related to time off and attendance.
 
 For any questions, clarifications, or feedback regarding this policy, employees are encouraged to contact the HR department or their manager for assistance.
 
