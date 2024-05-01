@@ -2,11 +2,11 @@
 
 ## Policy Coverage
 
-This Data and Records Governance Policy applies to all employees, contractors, and third-party service providers of Wolfgang, regardless of geographical location. This policy is designed to ensure that all individuals handling data and records in the course of their duties adhere to the highest standards of confidentiality, integrity, and security.
+This Data and Records Governance Policy applies to all employees, contractors, and third-party service providers of [Company Name], regardless of geographical location. This policy is designed to ensure that all individuals handling data and records in the course of their duties adhere to the highest standards of confidentiality, integrity, and security.
 
 ## Policy Overview
 
-Data and records are valuable assets of Wolfgang, and their proper management is critical to our operations, client service, and regulatory compliance. This policy establishes guidelines and procedures for the governance of data and records to safeguard information, maintain accuracy, and uphold privacy standards.
+Data and records are valuable assets of [Company Name], and their proper management is critical to our operations, client service, and regulatory compliance. This policy establishes guidelines and procedures for the governance of data and records to safeguard information, maintain accuracy, and uphold privacy standards.
 
 Effective data governance involves the strategic management of data to ensure its usability, integrity, and security. Records governance focuses on the systematic control of records throughout their lifecycle, from creation to disposition. This policy outlines the responsibilities of employees in managing data and records, as well as the procedures to be followed to ensure compliance with regulatory requirements and industry best practices.
 
@@ -52,6 +52,6 @@ The Compliance team will monitor and assess compliance with this policy through 
 #### 5.2. Reporting Violations
 Employees are encouraged to report any suspected violations of this policy to the Compliance team or the designated authority. Reports will be investigated promptly, and appropriate remedial action will be taken.
 
-Adherence to this Data and Records Governance Policy is mandatory for all employees and individuals handling data on behalf of Wolfgang. By following these guidelines, we demonstrate our commitment to maintaining the confidentiality, integrity, and security of data and records, thereby safeguarding the interests of the company and its stakeholders.
+Adherence to this Data and Records Governance Policy is mandatory for all employees and individuals handling data on behalf of [Company Name]. By following these guidelines, we demonstrate our commitment to maintaining the confidentiality, integrity, and security of data and records, thereby safeguarding the interests of the company and its stakeholders.
 
 This policy is effective immediately upon publication and will be reviewed periodically to ensure its continued relevance and effectiveness.

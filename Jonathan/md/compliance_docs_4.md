@@ -1,3 +1,0 @@
-| 0                                                                                                                                                                                                                                                   |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Anti-Money Laundering Policy - This policy sets procedures for preventing money laundering activities within the company, including customer due diligence, monitoring transactions, and reporting suspicious activities to regulatory authorities. |
