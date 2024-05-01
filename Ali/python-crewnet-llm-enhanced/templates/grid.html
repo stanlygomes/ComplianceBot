@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3x3 Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .title-bar1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #050505;
+            color: white;
+        }
+
+        .title-bar2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f7f7f7;
+            color: white;
+        }
+
+        .title-bar3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: rgb(245, 243, 243);
+        }
+
+        .title-bar4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            color: white;
+        }
+
+        .title-bar-links {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-bar-links li {
+            margin-right: 10px;
+        }
+
+        .title-bar-search {
+            display: flex;
+            align-items: center;
+        }
+
+        .title-bar-search input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        .title-bar-search input[type="text"]::placeholder {
+            color: #ccc;
+        }
+
+        .title-bar-search button {
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-color: #ccc;
+        }
+
+        .widget {
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            background-color: #f0f0f0;
+
+            /* Adjust the height as needed */
+        }
+
+        .logo {
+            height: auto;
+            /* Adjust the height as needed */
+            width: auto;
+            /* Maintain aspect ratio */
+        }
+
+        .my-profile {
+            align-items: right;
+        }
+
+        .link {
+            color: black;
+            text-decoration: none;
+            transition: font-weight 0.2s;
+        }
+
+        .link:hover {
+            font-weight: bold;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="title-bar1">
+        <a href="#" class="link"></a>
+        <button class="my-profile">My Profile</button>
+    </div>
+    <div class="title-bar2">
+        <img src="/img/not-crewnet.png" alt="not crewnet">
+        <a href="#" class="link">about us</a>
+        <a href="#" class="link">workplace resources</a>
+        <a href="#" class="link">total rewards</a>
+        <a href="#" class="link">performance</a>
+        <a href="#" class="link">crew</a>
+        <div class="title-bar-search">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+
+    </div>
+    <div class="title-bar3">
+        <img src="/img/bee.png" alt="Bee" class="logo">
+    </div>
+    <div class="title-bar4">
+        <a href="#" class="link">Enterprise News</a>
+        <a href="#" class="link">Division News</a>
+        <a href="#" class="link">Events</a>
+        <a href="#" class="link">Resources</a>
+        <a href="#" class="link">Market Watch</a>
+        <a href="#" class="link">Colleagues</a>
+        <div class="title-bar-search">
+            <input type="text" placeholder="Advanced Crew Search">
+            <button>Search</button>
+        </div>
+    </div>
+    <div class="grid">
+        {% for row in grid_data %}
+        {% for cell in row %}
+        <div class="widget">
+            <h3>{{ cell.title }}</h3>
+            {% if cell.widget == "image" %}
+            <img src="{{ cell.image_path }}" alt="{{ cell.content }}">
+            {% elif cell.widget == "chatbot" %}
+            {% include 'chatbot.html' %}
+            {% else %}
+            <p>{{ cell.content }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+</body>
+
+</html>
