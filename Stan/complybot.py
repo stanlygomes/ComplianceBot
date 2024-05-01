@@ -11,9 +11,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores.chroma import Chroma
-from langchain_community.callbacks.streamlit import (
-    StreamlitCallbackHandler,
-)
 
 load_dotenv()
 CHROMA_PATH = "C:/ProgramData/UserDataFolders/S-1-5-21-1271617331-789234398-1144656980-1030/Documents/chroma_compliance"
@@ -25,7 +22,7 @@ model_types = {'gpt3.5': 'gpt-3.5-turbo', 'gpt4': 'gpt-4',
 st.set_page_config(page_title='Streamlit Chatbot')
 st.title("Chatbot")
 
-def get_response(user_query, chat_history, model_type, st_callback):
+def get_response(user_query, chat_history, model_type):
     template = """
     Answer the question based only on the following context:
 
@@ -63,7 +60,7 @@ def get_response(user_query, chat_history, model_type, st_callback):
         # "chat_history": chat_history,
         "user_question": user_query,
         "context": context_text
-    }, {"callbacks": [st_callback]}), sources
+    }), sources
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
@@ -84,7 +81,6 @@ if user_query is not None and user_query != "":
     with st.chat_message("Human"):
         st.markdown(user_query)
     with st.chat_message("AI"):
-        st_callback = StreamlitCallbackHandler(st.container())
-        response, source = st.write_stream(get_response(user_query, st.session_state.chat_history, model_types["claude-opus"], st_callback))
+        response, source = st.write_stream(get_response(user_query, st.session_state.chat_history, model_types["claude-opus"]))
     
     st.session_state.chat_history.append(AIMessage(content=response))
